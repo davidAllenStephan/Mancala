@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "iostream": "cpp",
-    "cstdlib": "cpp"
+    "cstdlib": "cpp",
+    "ostream": "cpp"
   },
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#282c34",
