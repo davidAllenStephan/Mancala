@@ -21,7 +21,7 @@ int playerStore[2] = {0, 0};
 int player_1_board[6] = {4, 4, 4, 4, 4, 4};
 int player_1_store = 0;
 
-// PLAYER 2 VARIABLES
+// PLAYER 2 VARIABLESd
 int player_2_board[6] = {4, 4, 4, 4, 4, 4};
 int player_2_store = 0;
 
