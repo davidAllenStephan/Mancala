@@ -9,5 +9,5 @@ int determineWinner(int player_1_store, int player_2_store)
     {
         return 1;
     }
-    return 3;
+    return 2;
 }
