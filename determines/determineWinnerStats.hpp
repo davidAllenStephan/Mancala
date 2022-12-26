@@ -1,4 +1,4 @@
-void determineWinnerStats(int winner, int value[])
+void determineWinnerStats(int winner, double value[])
 {
 
     if (winner == 0)

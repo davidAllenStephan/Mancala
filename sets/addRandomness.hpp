@@ -9,7 +9,7 @@ int getRandomm(int upperBound)
 int addRandomness(int percent)
 {
 	int r = getRandomm(100);
-	if (r -= percent < 0)
+	if (r - percent < 0)
 	{
 		return 1;
 	}
