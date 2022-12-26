@@ -36,7 +36,7 @@ int setArrayMove(int selectedSpace, int moveCount, int playerBoard[2][6], int pl
                 if (extra == 0 && i == (moveCount + selectedSpace))
                 {
                     if (playerBoard[playerTurn][i] == 1) {
-                        playerStore[playerTurn] = playerBoard[determinePlayerTurn(playerTurn)][6-(i+1)];
+                        playerStore[playerTurn] += playerBoard[determinePlayerTurn(playerTurn)][6-(i+1)];
                         playerStore[playerTurn] += 1;
                         playerBoard[playerTurn][i] = 0;
                         playerBoard[determinePlayerTurn(playerTurn)][6-(i+1)] = 0;
